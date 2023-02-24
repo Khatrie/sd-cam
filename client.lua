@@ -32,7 +32,7 @@ RegisterNetEvent('sd-cam:client:takepic', function()
                         DestroyMobilePhone()
                         CellCamActivate(false, false)
                         SetTimecycleModifierStrength(0.0)
-    --[[                 exports['screenshot-basic']:requestScreenshotUpload('https://discord.com/api/webhooks/1065667445391634572/tWDXPg7G7weumcOec5ejiMXssO-vQIl0Bfnc-0W-mCO2Q2TQdkohQLE5-nOLxHLbhesf', "files[]", function(uploadData)
+    --[[                 exports['screenshot-basic']:requestScreenshotUpload('INSERT DISCORD WEBHOOK HERE', "files[]", function(uploadData)
                         local player = QBCore.Functions.GetPlayerData()
                         TriggerServerEvent('qb-log:server:CreateLog', 'pictures', 'Pictures', 'lightgreen', '**Poloroid Taken by:** '.. player.charinfo.firstname .. " " .. player.charinfo.lastname .. "\n\n ** PermID: **" .. player.metadata.permid .. "\n\n ** Source: **" .. player.source .. "\n\n **Location: **" .. player.position.x .. ", " .. player.position.y .. ", " ..player.position.z )
                     end) ]]
